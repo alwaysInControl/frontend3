@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5</title>
+    <style>
+        body {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: 100vh;
+        }
+        .wrapper > div {
+            display: flex;
+            flex-direction: column;
+        }
+        .usd {margin-top: 20px;}
+        .usd {margin-bottom: 20px;}
+        input {padding: 10px}
+        label {font-size: 18px;}
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="som">
+            <label for="som">Som</label>
+            <input type="number" id="som">
+        </div>
+        <div class="usd">
+            <label for="usd">Usd</label>
+            <input type="number" id="usd">
+        </div>
+        <div class="euro">
+            <label for="euro">Euro</label>
+            <input type="number" id="euro">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
